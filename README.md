@@ -43,9 +43,13 @@ flatpak install marktext
 
 Fonts:
 sudo pacman -S ttf-anonymous-pro ttf-droid ttf-ubuntu-font-family ttf-roboto ttf-roboto-mono ttf-font-awesome ttf-bitstream-vera ttf-dejavu ttf-liberation adobe-source-sans-pro-fonts ttf-fira-code
+
 yay -S ttf-hackgen ttf-gentium-basic ttf-ms-fonts
 yay -S ttf-nerd-fonts-hack-complete-git 
 yay -S ttf-mac-fonts
 
 yay -S archlinux-artwork
+
+Oh My Zsh:
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
