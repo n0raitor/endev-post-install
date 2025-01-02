@@ -48,6 +48,13 @@ yay -S ttf-hackgen ttf-gentium-basic ttf-ms-fonts
 yay -S ttf-nerd-fonts-hack-complete-git 
 yay -S ttf-mac-fonts
 
+# Fix VBOX:
+sudo pacman -Syu virtualbox virtualbox-host-dkms linux-lts linux-lts-headers
+sudo modprobe -r vboxdrv
+sudo modprobe vboxdrv
+sudo modprobe vboxnetadp
+sudo modprobe vboxnetflt
+
 yay -S archlinux-artwork
 
 Oh My Zsh:
